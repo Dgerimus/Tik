@@ -4,6 +4,7 @@ function GameInfo({ status, step, stepColor }) {
     move: "Ход",
     draw: "Ничья",
     winner: "Победитель",
+    error: "ошибка",
   };
 
   const currentState = state[status];
