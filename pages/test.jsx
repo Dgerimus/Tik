@@ -1,5 +1,3 @@
-function Test1() {
-  return <>Test page</>;
+export default function TestPage() {
+  return <div className="text-2xl text-red-800">Test page</div>;
 }
-
-export default Test1;
