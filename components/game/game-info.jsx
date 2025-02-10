@@ -14,7 +14,7 @@ export function GameInfo({ isDraw, winnerSymbol, currentStep }) {
   }
 
   return (
-    <div className="mb-2.5">
+    <div className="mb-2.5 flex items-center">
       Ход: <GameSymbol symbol={currentStep} />
     </div>
   );
