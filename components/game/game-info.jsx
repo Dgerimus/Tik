@@ -1,21 +1,5 @@
-import { GameSymbol } from "./game-symbol";
+import clsx from "clsx";
 
-export function GameInfo({ isDraw, winnerSymbol, currentStep }) {
-  if (isDraw) {
-    return <div className="mb-2.5">Ничья</div>;
-  }
-
-  if (winnerSymbol) {
-    return (
-      <div className="mb-2.5">
-        Победитель: <GameSymbol symbol={winnerSymbol} />
-      </div>
-    );
-  }
-
-  return (
-    <div className="mb-2.5 flex items-center">
-      Ход: <GameSymbol symbol={currentStep} />
-    </div>
-  );
+export function GameInfo({ className }) {
+  return <div className={clsx(className, "")}>GameInfo</div>;
 }
