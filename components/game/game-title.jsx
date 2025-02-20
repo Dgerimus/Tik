@@ -2,9 +2,9 @@ import Link from "next/link";
 import { LeftArrow } from "./icons/leftArrow.jsx";
 import { Person } from "./icons/person.jsx";
 import { Star } from "./icons/star1.jsx";
-import { Taimer, Timer } from "./icons/timer.jsx";
+import { Timer } from "./icons/timer.jsx";
 
-export function GameTitle() {
+export function GameTitle({ playersCount }) {
   return (
     <div className=" pl-2">
       <Link
@@ -17,7 +17,8 @@ export function GameTitle() {
       <div className="flex items-center gap-3 leading-tight text-slate-400 text-sx">
         <Star />
         <div className="flex items-center gap-1 ">
-          <Person />2
+          <Person />
+          {playersCount}
         </div>
         <div className="flex items-center gap-1 ">
           <Timer /> 1 minute per turn
