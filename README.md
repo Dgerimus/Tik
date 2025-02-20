@@ -1,8 +1,7 @@
-# React + Vite
+В рамках проекта были изучены и применены следующие технологии:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React и Hooks для создания динамичного интерфейса.
+TailwindCSS для быстрой стилизации.
+TypeScript для статической типизации.
+clsx для условного объединения классов.
+Git для контроля версий.
